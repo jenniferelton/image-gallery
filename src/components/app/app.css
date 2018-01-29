@@ -48,6 +48,9 @@ main {
 
 footer {
   text-align: center;
-  background: $olive;
+  background: $darkBlue;
   padding: $contentPadding;
+  small {
+    color:white;
+  }
 }
