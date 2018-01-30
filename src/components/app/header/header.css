@@ -4,26 +4,32 @@
 header {
     background: $darkBlue;
     border-bottom: 1px solid $darkBlue;
-    padding: 0 1rem;
+    padding: 0;
+    position: relative;
     .header-flex {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-align: center;
     }
 
     .logo {
         width: 4em;
         height: auto;
+        display: flex;
+
     }
     h1 {
         display: flex;
-        align-items: center;
+        align-items: auto;
         line-height: 1;
         color:white;
         font-size: 2rem;
-        margin-bottom: 0;
+        padding: .5em;
+        
+        
     }
-    
+
     nav {
         ul {
             li {
@@ -38,6 +44,7 @@ header {
                     text-transform: uppercase;
                     font-size: 1.1rem;
                     border-radius: 10px;
+                    line-height: 3;
                     &:hover {
                         color:$medOrange;
                     }

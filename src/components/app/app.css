@@ -33,8 +33,8 @@ h3 {font-size: 1.5em;}
 h4 {font-size: 1.25em;}
 small {font-size: .75em;}
 
-h1, h2, h3, h4, p {
-  line-height: 1.5rem;
+ h2, h3, h4, p {
+  line-height: 2rem;
   margin-bottom: 2rem;
 }
 
