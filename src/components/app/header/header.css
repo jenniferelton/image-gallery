@@ -22,7 +22,7 @@ header {
     h1 {
         display: flex;
         align-items: auto;
-        line-height: 1;
+        line-height: 1.5;
         color:white;
         font-size: 2rem;
         padding: .5em;
@@ -55,6 +55,10 @@ header {
 }
 /* TABLET STYLES #$###################### */
 @media (min-width: 800px) {
+
+#designers {
+    border:.5em;
+}
    
 
  
@@ -69,14 +73,14 @@ header {
     }
 
     .logo {
-        width: 7em;
+        width: 9em;
         height: auto;
     }
     h1 {
         display: flex;
         align-items: center;
         color:white;
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-bottom: 0;
     }
     

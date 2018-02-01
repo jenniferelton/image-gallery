@@ -28,7 +28,7 @@ export default class Designer {
     this.update(this.designer);
     
     this.onValue = this.designerImages.on('child_added', data => {
-      this.image.src = getUrl(data.val(), 'e_sepia:80,c_scale,w_75');
+      this.image.src = getUrl(data.val());
     });
 
     return dom;

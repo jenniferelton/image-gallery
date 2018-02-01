@@ -19,11 +19,12 @@ export default class DesignerDetail {
     const header = dom.querySelector('h2');
     const name = dom.querySelector('.name');
 
-    this.onValue = this.on('value', data => {
+    this.onValue = this.designer.on('value', data => {
       const designer = data.val();
       header.textContent = `${designer.name} the ${designer.type}`;
       name.textContent = designer.name;
     });
+  
 
     this.images = new Images(this.key);
     dom.querySelector('section.images').append(this.images.render());
@@ -32,7 +33,7 @@ export default class DesignerDetail {
   }
 
   unrender() {
-    designers.child(this.key).off('value', this.onValue);
+    this.designer.off('value', this.onValue);
     this.images.unrender();
   }
 }

@@ -1,13 +1,12 @@
 import firebase from 'firebase';
   
-
 var config = {
-  apiKey: 'AIzaSyB9NdosiC7HysbDHTF957E8sOGZsxlGKhM',
-  authDomain: 'designer-spring-summer.firebaseapp.com',
-  databaseURL: 'https://designer-spring-summer.firebaseio.com',
-  projectId: 'designer-spring-summer',
-  storageBucket: 'designer-spring-summer.appspot.com',
-  messagingSenderId: '700058728110'
+  apiKey: 'AIzaSyDLrZcKSDIlNJweOGv0yJ7F7inPnKVFW24',
+  authDomain: 'image-gallery-53f68.firebaseapp.com',
+  databaseURL: 'https://image-gallery-53f68.firebaseio.com',
+  projectId: 'image-gallery-53f68',
+  storageBucket: 'image-gallery-53f68.appspot.com',
+  messagingSenderId: '1076726135417'
 };
 
 const firebaseApp = firebase.initializeApp(config);

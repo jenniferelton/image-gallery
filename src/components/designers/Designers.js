@@ -9,10 +9,10 @@ import { removeChildren } from '../dom';
 const template = new Template(html);
 
 
-export default class Designer {
+export default class Designers {
   constructor() {
-    this.hasChange = () => this.setChildPage();
-    window.addEventListener('hashChange', this.hashChange);
+    this.hashChange = () => this.setChildPage();
+    window.addEventListener('hashchange', this.hashChange);
   }
     
   setChildPage() {
